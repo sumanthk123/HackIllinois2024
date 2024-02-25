@@ -1,75 +1,22 @@
-<<<<<<< HEAD
-# chatgdp README
+Inspiration
+Have you ever unknowingly spent extra money just trying to understand how an API works? Well, we definitely have. During one of our group member's research projects, he unknowingly spent over $100 using an API key that didn't belong to him. This is where ChatGDP comes in.
 
-This is the README for your extension "chatgdp". After writing up a brief description, we recommend including the following sections.
+What it does
+ChatGDP is a VSCode extension that utilizes HTTP Requests and displays a live price of your OpenAPI's API usage in a friendly window. All you need to do is run the code; we'll do the rest for you.
 
-## Features
+How we built it
+ChatGDP runs on 4 main components: Web Scraping, Databasing, Network Monitoring, and Extension.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Our Web Scraping is powered by BeautifulSoup, to parse through OpenAI pricing website and extract key pricing information. Our Databasing is built on SQL, where our web scraping data is stored. Our Network Monitoring runs through a mixture of network monitoring with pyShark and API redirecting with Flask. Finally, our extension is run mainly on typescript, where we use a mixture of front end technologies like HTML, CSS, and JS to receive data from SQL and display it.
 
-For example if there is an image subfolder under your extension project workspace:
+Challenges we ran into
+During the development of our ChatGDP, we encountered significant challenges in API tracking due to compatibility issues. Moreover, establishing connections with the SQL database and its integration with the front-end presented considerable obstacles, demanding innovative solutions to ensure seamless operation and user experience.
 
-\!\[feature X\]\(images/feature-x.png\)
+Accomplishments that we're proud of
+Our most significant achievement was the successful integration of diverse technologies—network monitoring, web scraping, front-end, and back-end development—into a single application. This multifaceted approach provided us with valuable insights into the complexity and interdisciplinary nature of real-world software projects, showcasing our ability to navigate and combine various technological domains effectively.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+What we learned
+Throughout the project, we acquired skills in developing a Visual Studio Code extension, mastered web scraping techniques, and learned to monitor network traffic utilizing PyShark, significantly enhancing our technical proficiency and practical knowledge in software development.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
-=======
-# HackIllinois2024
->>>>>>> da596d52bf318c92940c3b1ecbc9e777757a0bcc
+What's next for ChatGDP
+Our goal is to expand our usage for further websites, not just OpenAI. By potentially utilizing the power of generative AI and its capability of parsing through HTML, standardizing and extracting pricing information for a plethora of API's would heavily grow ChatGDP's helpfulness for developers.
