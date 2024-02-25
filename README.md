@@ -1,4 +1,4 @@
-Inspiration
+#Inspiration
 Have you ever unknowingly spent extra money just trying to understand how an API works? Well, we definitely have. During one of our group member's research projects, he unknowingly spent over $100 using an API key that didn't belong to him. This is where ChatGDP comes in.
 
 What it does
