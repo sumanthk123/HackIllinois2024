@@ -14,7 +14,7 @@ for models in all_model_labels:
         if len(model) > 0:
             all_model_values.append(model)
 for i in all_model_values:
-    print(i[1])
+    print(i)
 
 # all_model_labels = soup.find_all('td', class_='pt-8 pb-8')
 

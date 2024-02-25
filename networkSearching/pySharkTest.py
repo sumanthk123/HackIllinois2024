@@ -1,6 +1,6 @@
 import pyshark 
 
-capture = pyshark.LiveCapture(interface='en0', bpf_filter='http')
+capture = pyshark.LiveCapture(interface='en0')
 capture.sniff(timeout=5)
 print(capture)
 print(len(capture))

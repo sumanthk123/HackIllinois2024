@@ -9,13 +9,18 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onView:yourViewIdentifier",
+  "onCommand:yourExtension.showSidebar"],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "chatgdp.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "yourExtension.showSidebar",
+        "title": "ChatGDP"
       }
     ]
   },
