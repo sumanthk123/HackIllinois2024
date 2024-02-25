@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # chatgdp README
 
 This is the README for your extension "chatgdp". After writing up a brief description, we recommend including the following sections.
@@ -69,3 +70,6 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+=======
+# HackIllinois2024
+>>>>>>> da596d52bf318c92940c3b1ecbc9e777757a0bcc
