@@ -21,4 +21,4 @@ Our most significant achievement was the successful integration of diverse techn
 Throughout the project, we acquired skills in developing a Visual Studio Code extension, mastered web scraping techniques, and learned to monitor network traffic utilizing PyShark, significantly enhancing our technical proficiency and practical knowledge in software development.
 
 # What's next for ChatGDP
-Our goal is to expand our usage for further websites, not just OpenAI. By potentially utilizing the power of generative AI and its capability of parsing through HTML, standardizing and extracting pricing information for a plethora of API's would heavily grow ChatGDP's helpfulness for developers.
+Our goal is to expand our usage for further websites, not just OpenAI. By potentially utilizing the power of generative AI and its capability of parsing through HTML, standardizing and extracting pricing information for a bunch of API's would heavily grow ChatGDP's helpfulness for developers.
